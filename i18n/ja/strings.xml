@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="label01">Fitは
+        あなたの全身写真1枚で
+        服選びに必要な
+
+        ・袖丈
+        ・股下
+        ・腿周り
+        ・ウェスト
+        ・バスト
+
+        が採寸できます。
+    </string>
+    <string name="label02">次へ</string>
+</resources>

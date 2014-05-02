@@ -1,0 +1,37 @@
+<Alloy>
+	<Window class="container">
+        <View id="menuview">
+            <View id="menuviewheader">
+                <Label id="menutitle">menu</Label>
+            </View>
+            <TableView id="menulist">
+                <TableViewRow id="menulistrow">
+                    <Button id="profile"></Button>
+                </TableViewRow>
+                <TableViewRow id="menulistrow">
+                    <Button id="photo"></Button>
+                </TableViewRow>
+                <TableViewRow id="menulistrow">
+                    <Button id="setting"></Button>
+                </TableViewRow>
+            </TableView>
+        </View>
+        <View id="mainview">
+            <View id="header">
+                <Button id="search"></Button>
+                <ImageView id="logo"></ImageView>
+                <Button id="menu"></Button>
+            </View>
+            <View id="nav">
+                <Button id="buy"></Button>
+                <Button id="code"></Button>
+                <Button id="news"></Button>
+                <Button id="bookmark"></Button>
+            </View>
+            <ScrollView id="contents">
+                <ImageView id="test"></ImageView>
+            </ScrollView>
+        </View>
+
+	</Window>
+</Alloy>

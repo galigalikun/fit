@@ -1,0 +1,134 @@
+".container": {
+    backgroundColor:"white",
+    orientationModes:[Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT]
+}
+
+"#menuview": {
+    backgroundColor:"black",
+    height: Ti.UI.FILL,
+    width: Ti.UI.FILL
+}
+"#menulist": {
+    backgroundColor:"black",
+    height: Ti.UI.FILL,
+    width: Ti.UI.FILL
+}
+"#profile": {
+    top: "0",
+    right: "0",
+    backgroundImage: "images/btn_profile.png",
+    width: "205dp",
+    height: "68.5dp",
+}
+
+"#photo": {
+    top: "0",
+    right: "0",
+    backgroundImage: "images/btn_camera.png",
+    width: "205dp",
+    height: "68.5dp",
+}
+
+"#setting": {
+    top: "0",
+    right: "0",
+    backgroundImage: "images/btn_settings.png",
+    width: "205dp",
+    height: "68.5dp",
+}
+
+"#mainview": {
+    backgroundColor:"white",
+    height: Ti.UI.FILL,
+    width: Ti.UI.FILL
+}
+
+"#header": {
+    top: "0",
+    left: "0",
+    right: "0",
+    bottom: "1",
+    height: "63dp",
+    width: Ti.UI.FILL,
+    backgroundColor: "white",
+    borderWidth: 1,
+    borderColor: "#B4B4B4"
+}
+
+"#search": {
+    top: "5",
+    left: "5",
+    backgroundImage: "images/btn_search.png",
+    width: "58dp",
+    height: "58dp",
+    visible:true
+}
+
+"#logo": {
+    top: "15",
+    image: "images/logo.png",
+    height: "29dp",
+    visible:true
+}
+
+"#menu": {
+    top: "5",
+    right: "5",
+    backgroundImage: "images/btn_menu.png",
+    width: "58dp",
+    height: "58dp",
+    visible:true
+}
+
+
+"#nav": {
+    top: "63dp",
+    left: "0",
+    visible:true
+}
+
+"#buy": {
+    top: "0",
+    left: "0",
+    backgroundImage: "images/btn_buy_off.png",
+    width: "80dp",
+    height: "68dp"
+}
+"#code": {
+    top: "0",
+    left: "80dp",
+    backgroundImage: "images/btn_code_off.png",
+    width: "80dp",
+    height: "68dp"
+}
+"#news": {
+    top: "0",
+    left: "160dp",
+    backgroundImage: "images/btn_news_off.png",
+    width: "80dp",
+    height: "68dp"
+}
+"#bookmark": {
+    top: "0",
+    left: "240dp",
+    backgroundImage: "images/btn_bookmark_off.png",
+    width: "80dp",
+    height: "68dp"
+}
+
+"#contents": {
+    backgroundColor: "#424242",
+    borderWidth: 1,
+    top: "126dp",
+    left: "0",
+    width: Ti.UI.FILL,
+    contentWidth:'auto',
+    contentHeight: 'auto',
+    showVerticalScrollIndicator: true,
+    showHorizontalScrollIndicator: false,
+    visible:true
+}
+
+"#test": {
+    image: "images/lineup_before.jpg"
+}
