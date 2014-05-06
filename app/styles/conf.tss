@@ -13,6 +13,10 @@
     text: L("label01")
 }
 
-"#next": {
-    image: "images/next.png"
+"#submit": {
+    bottom: "15dp",
+    backgroundImage: "images/next.png",
+    zindex: 1000,
+    width: "290dp",
+    height: "50dp",
 }

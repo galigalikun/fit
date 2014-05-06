@@ -172,7 +172,7 @@ function Controller() {
         borderWidth: 1,
         top: "126dp",
         left: "0",
-        width: Ti.UI.FILL,
+        width: Ti.UI.SIZE,
         contentWidth: "auto",
         contentHeight: "auto",
         showVerticalScrollIndicator: true,
@@ -183,6 +183,7 @@ function Controller() {
     $.__views.mainview.add($.__views.contents);
     $.__views.test = Ti.UI.createImageView({
         image: "images/lineup_before.jpg",
+        width: "320dp",
         id: "test"
     });
     $.__views.contents.add($.__views.test);

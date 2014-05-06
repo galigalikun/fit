@@ -1,5 +1,6 @@
 <Alloy>
 	<Window class="container">
         <ImageView id="header"></ImageView>
+        <Button id="submit"></Button>
 	</Window>
 </Alloy>
